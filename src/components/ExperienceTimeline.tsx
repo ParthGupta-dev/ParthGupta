@@ -4,12 +4,6 @@ import { motion } from "framer-motion";
 
 const TIMELINE = [
   {
-    year: "2024 - Present",
-    title: "Software Engineering Intern",
-    company: "Freelance / Startups",
-    description: "Building scalable web applications, designing RESTful APIs, and implementing minimal, responsive frontend interfaces.",
-  },
-  {
     year: "2025 - 2029",
     title: "Bachelor of Technology",
     company: "University / College",
@@ -40,7 +34,7 @@ export default function ExperienceTimeline() {
 
         <div className="relative border-l border-white/10 ml-4 md:ml-6 space-y-12 pb-4">
           {TIMELINE.map((item, idx) => (
-            <motion.div 
+            <motion.div
               key={idx}
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -50,7 +44,7 @@ export default function ExperienceTimeline() {
             >
               {/* Timeline Dot */}
               <div className="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.8)]" />
-              
+
               <div className="flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-4 mb-2">
                 <h3 className="text-xl font-semibold text-white tracking-wide">{item.title}</h3>
                 <span className="text-indigo-400 text-sm font-mono">{item.year}</span>

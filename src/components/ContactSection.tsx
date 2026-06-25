@@ -22,47 +22,47 @@ export default function ContactSection() {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           <div className="p-8 rounded-2xl bg-white/[0.02] border border-white/5 flex flex-col items-center text-center space-y-4">
-             <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs">Email</div>
-             <button 
-               onClick={() => {
-                 navigator.clipboard.writeText("parthgupta2430@gmail.com");
-                 setCopied(true);
-                 setTimeout(() => setCopied(false), 2000);
-               }}
-               className="text-slate-400 hover:text-white transition-colors text-sm font-light"
-             >
-               {copied ? "Copied!" : "parthgupta2430@gmail.com"}
-             </button>
+            <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs">Email</div>
+            <button
+              onClick={() => {
+                navigator.clipboard.writeText("parthgupta2430@gmail.com");
+                setCopied(true);
+                setTimeout(() => setCopied(false), 2000);
+              }}
+              className="text-slate-400 hover:text-white transition-colors text-sm font-light"
+            >
+              {copied ? "Copied!" : "parthgupta2430@gmail.com"}
+            </button>
           </div>
 
-          <a 
-            href="https://github.com/coder404-hub/" 
-            target="_blank" 
+          <a
+            href="https://github.com/ParthGupta-dev"
+            target="_blank"
             rel="noreferrer"
             className="p-8 rounded-2xl bg-white/[0.02] border border-white/5 flex flex-col items-center text-center space-y-4 hover:border-indigo-500/20 transition-all group"
           >
-             <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs group-hover:text-indigo-300 transition-colors">GitHub</div>
-             <div className="text-slate-400 text-sm font-light group-hover:text-slate-300 transition-colors">@coder404-hub</div>
+            <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs group-hover:text-indigo-300 transition-colors">GitHub</div>
+            <div className="text-slate-400 text-sm font-light group-hover:text-slate-300 transition-colors">@ParthGupta-dev</div>
           </a>
 
-          <a 
-            href="https://www.linkedin.com/in/parth-gupta-a7a230379/" 
-            target="_blank" 
+          <a
+            href="https://www.linkedin.com/in/parth-gupta-a7a230379/"
+            target="_blank"
             rel="noreferrer"
             className="p-8 rounded-2xl bg-white/[0.02] border border-white/5 flex flex-col items-center text-center space-y-4 hover:border-indigo-500/20 transition-all group"
           >
-             <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs group-hover:text-indigo-300 transition-colors">LinkedIn</div>
-             <div className="text-slate-400 text-sm font-light group-hover:text-slate-300 transition-colors">@parth-gupta</div>
+            <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs group-hover:text-indigo-300 transition-colors">LinkedIn</div>
+            <div className="text-slate-400 text-sm font-light group-hover:text-slate-300 transition-colors">@parth-gupta</div>
           </a>
 
-          <a 
-            href="https://www.instagram.com/pxrth_zzz?igsh=MTR6MXgzNjR1ZHRmYg==" 
-            target="_blank" 
+          <a
+            href="https://www.instagram.com/pxrth_zzz?igsh=MTR6MXgzNjR1ZHRmYg=="
+            target="_blank"
             rel="noreferrer"
             className="p-8 rounded-2xl bg-white/[0.02] border border-white/5 flex flex-col items-center text-center space-y-4 hover:border-indigo-500/20 transition-all group"
           >
-             <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs group-hover:text-indigo-300 transition-colors">Instagram</div>
-             <div className="text-slate-400 text-sm font-light group-hover:text-slate-300 transition-colors">@pxrth_zzz</div>
+            <div className="text-indigo-400 font-medium tracking-wide uppercase text-xs group-hover:text-indigo-300 transition-colors">Instagram</div>
+            <div className="text-slate-400 text-sm font-light group-hover:text-slate-300 transition-colors">@pxrth_zzz</div>
           </a>
         </div>
       </motion.div>
