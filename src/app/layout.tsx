@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Parth Gupta | Developer Portfolio",
-  description: "Minimal, professional portfolio of Parth Gupta, showcasing clean code and scalable systems.",
+  description: "Architecting resilient backend systems, secure infrastructure, and advanced automation engines. I transform complex logical problems into scalable, production-ready code built for the future.",
 };
 
 export default function RootLayout({
